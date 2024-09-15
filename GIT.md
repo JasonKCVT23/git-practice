@@ -44,6 +44,41 @@
 
 - 標籤(Tag)其實是跟分支(Branch)有點像的東西，差別只在於在 Commit 發生的時候，分支會隨著一起往前移動，但標籤一旦定下來之後就不會再移動了。
 
+# git repo 操作過程中 .git 檔案夾裡的變化
+
+## 檔案夾內有什麼 (ls)
+
+### 檔案夾
+- branches
+- hooks
+- info
+- logs
+- objects
+- refs
+
+### 文件
+- COMMIT_EDITMSG
+- HEAD
+- config
+- description
+- index
+
+## 時間序紀錄 (ls-al)
+- total 0
+- drwxr-xr-x 1 s11251 s11251 512 Sep 15 17:15 .
+- drwxr-xr-x 1 s11251 s11251 512 Sep 15 13:13 ..
+- -rw-r--r-- 1 s11251 s11251  16 Sep 15 13:07 COMMIT_EDITMSG
+- -rw-r--r-- 1 s11251 s11251  21 Sep 15 14:37 HEAD
+- drwxr-xr-x 1 s11251 s11251 512 Sep 15 12:58 branches
+- -rw-r--r-- 1 s11251 s11251 369 Sep 15 17:15 config
+- -rw-r--r-- 1 s11251 s11251  73 Sep 15 12:58 description
+- drwxr-xr-x 1 s11251 s11251 512 Sep 15 12:58 hooks
+- -rw-r--r-- 1 s11251 s11251  46 Sep 15 13:13 index
+- drwxr-xr-x 1 s11251 s11251 512 Sep 15 12:58 info
+- drwxr-xr-x 1 s11251 s11251 512 Sep 15 13:05 logs
+- drwxr-xr-x 1 s11251 s11251 512 Sep 15 13:07 objects
+- drwxr-xr-x 1 s11251 s11251 512 Sep 15 14:37 refs
+
 # Commit Message怎麼寫
 
 ## Commit Message 之規範
@@ -51,7 +86,7 @@
 
 ## Commit Message 規範組成：
 
-### Header: \<type\>\(\<scope\>\): \<subject\>
+### Header: \<type>\(<scope>):\ <subject>
 - type: 代表 commit 的類別：feat, fix, docs, style, refactor, test, chore，必要欄位。
 - scope 代表 commit 影響的範圍，例如資料庫、控制層、模板層等等，視專案不同而不同，為可選欄位。
 - subject 代表此 commit 的簡短描述，不要超過 50 個字元，結尾不要加句號，為必要欄位。
