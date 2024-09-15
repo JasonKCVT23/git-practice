@@ -48,35 +48,35 @@
 ## 檔案夾內有什麼 (ls)
 
 ### 檔案夾
-- branches
-- hooks
-- info
-- logs
-- objects
-- refs
+branches
+hooks
+info
+logs
+objects
+refs
 
 ### 文件
-- COMMIT_EDITMSG
-- HEAD
-- config
-- description
-- index
+COMMIT_EDITMSG
+HEAD
+config
+description
+index
 
 ## 時間序紀錄 (ls-al)
-- total 0
-- drwxr-xr-x 1 s11251 s11251 512 Sep 15 17:15 .
-- drwxr-xr-x 1 s11251 s11251 512 Sep 15 13:13 ..
-- -rw-r--r-- 1 s11251 s11251  16 Sep 15 13:07 COMMIT_EDITMSG
-- -rw-r--r-- 1 s11251 s11251  21 Sep 15 14:37 HEAD
-- drwxr-xr-x 1 s11251 s11251 512 Sep 15 12:58 branches
-- -rw-r--r-- 1 s11251 s11251 369 Sep 15 17:15 config
-- -rw-r--r-- 1 s11251 s11251  73 Sep 15 12:58 description
-- drwxr-xr-x 1 s11251 s11251 512 Sep 15 12:58 hooks
-- -rw-r--r-- 1 s11251 s11251  46 Sep 15 13:13 index
-- drwxr-xr-x 1 s11251 s11251 512 Sep 15 12:58 info
-- drwxr-xr-x 1 s11251 s11251 512 Sep 15 13:05 logs
-- drwxr-xr-x 1 s11251 s11251 512 Sep 15 13:07 objects
-- drwxr-xr-x 1 s11251 s11251 512 Sep 15 14:37 refs
+total 0
+drwxr-xr-x 1 s11251 s11251 512 Sep 15 17:15 .
+drwxr-xr-x 1 s11251 s11251 512 Sep 15 13:13 ..
+-rw-r--r-- 1 s11251 s11251  16 Sep 15 13:07 COMMIT_EDITMSG
+-rw-r--r-- 1 s11251 s11251  21 Sep 15 14:37 HEAD
+drwxr-xr-x 1 s11251 s11251 512 Sep 15 12:58 branches
+-rw-r--r-- 1 s11251 s11251 369 Sep 15 17:15 config
+-rw-r--r-- 1 s11251 s11251  73 Sep 15 12:58 description
+drwxr-xr-x 1 s11251 s11251 512 Sep 15 12:58 hooks
+-rw-r--r-- 1 s11251 s11251  46 Sep 15 13:13 index
+drwxr-xr-x 1 s11251 s11251 512 Sep 15 12:58 info
+drwxr-xr-x 1 s11251 s11251 512 Sep 15 13:05 logs
+drwxr-xr-x 1 s11251 s11251 512 Sep 15 13:07 objects
+drwxr-xr-x 1 s11251 s11251 512 Sep 15 14:37 refs
 
 # Commit Message怎麼寫
 
