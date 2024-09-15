@@ -113,8 +113,8 @@ Type 是用來告訴進行 Code Review 的人應該以什麼態度來檢視 Comm
 - 利用不同的 Type 來決定進行 Code Review 檢視的角度，可以提升 Code Review 的速度。因此開發團隊應該要對這些 Type 的使用時機有一致的認同。
 
 ### 類別限制
-- Type 只允許使用以下類別：
--
+Type 只允許使用以下類別：
+
 - feat: 新增/修改功能 (feature)。
 - fix: 修補 bug (bug fix)。
 - docs: 文件 (documentation)。
