@@ -85,7 +85,7 @@ drwxr-xr-x 1 s11251 s11251 512 Sep 15 14:37 refs<br>
 
 ## Commit Message 規範組成：
 
-### Header: \<type>\(<scope>):\ <subject>
+### Header: \<type\>\(\<scope\>\):\<subject\>
 - type: 代表 commit 的類別：feat, fix, docs, style, refactor, test, chore，必要欄位。
 - scope 代表 commit 影響的範圍，例如資料庫、控制層、模板層等等，視專案不同而不同，為可選欄位。
 - subject 代表此 commit 的簡短描述，不要超過 50 個字元，結尾不要加句號，為必要欄位。
