@@ -1,0 +1,25 @@
+{
+  "name": "expressproject1130930",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonKCVT23/git-practice.git"
+  },
+  "keywords": [
+    "EP0930"
+  ],
+  "author": "JasonK",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/JasonKCVT23/git-practice/issues"
+  },
+  "homepage": "https://github.com/JasonKCVT23/git-practice#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
